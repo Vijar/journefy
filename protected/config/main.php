@@ -47,10 +47,14 @@ return array(
 			),
 		),
 		*/
+		// 'db'=>array(
+		// 	'connectionString' => 'sqlite:'.dirname(__FILE__).'/../data/testdrive.db',
+		// ),
+		// uncomment the following to use a MySQL database
 		'db'=>array(
 			'connectionString' => 'mysql:host=23.23.193.192;dbname=angelhack',
 			'emulatePrepare' => true,
-			'username' => 'angelhacker',
+			'username' => 'angelhackher',
 			'password' => 'h4ckth1$',
 			'charset' => 'utf8',
 		),
